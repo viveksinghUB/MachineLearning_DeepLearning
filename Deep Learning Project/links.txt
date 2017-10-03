@@ -1,0 +1,1 @@
+http://cs231n.github.io/linear-classify/#softmaxhttp://cs231n.github.io/linear-classify/#softmax

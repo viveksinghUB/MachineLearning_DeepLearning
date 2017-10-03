@@ -1,0 +1,12 @@
+ssh to aws using putty or directly if on linux
+
+goto anaconda2/bin/
+
+./jupyter notebook --no-browser --port=8888
+
+
+if on linux : ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ubuntu@ec2–34–227–222–100.compute-1.amazonaws.com
+
+if windows goto command prompt : plink -ssh -i C:\Users\vivek\Downloads\ethereum2.ppk -L 8080:localhost:8888 ubuntu@ec2-184-73-129-231.compute-1.amazonaws.com
+
+open browser: http://localhost:8080/tree#
